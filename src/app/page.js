@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter/Counter";
+import Link from "next/link";
 import React from "react";
 
 const HomePage = () => {
@@ -10,6 +11,22 @@ const HomePage = () => {
       <div>
         <Counter />
       </div>
+      <Link href="about">
+        {" "}
+        <button className="btn btn-accent">About</button>
+      </Link>
+      <Link href="news">
+        {" "}
+        <button className="btn btn-accent">News</button>
+      </Link>
+      <Link href="contact">
+        {" "}
+        <button className="btn btn-accent">Contact</button>
+      </Link>
+      <Link href="products">
+        {" "}
+        <button className="btn btn-accent">Products</button>
+      </Link>
     </div>
   );
 };
