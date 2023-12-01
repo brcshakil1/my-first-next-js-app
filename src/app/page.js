@@ -27,6 +27,10 @@ const HomePage = () => {
         {" "}
         <button className="btn btn-accent">Products</button>
       </Link>
+      <Link href="album">
+        {" "}
+        <button className="btn btn-accent">Album</button>
+      </Link>
     </div>
   );
 };
